@@ -8,9 +8,9 @@
 //5. After (n-1) iteration, the whole array will be sorted.
 
 for(int i=n-1;i>=0;i--){
-        for(int j=0;j<i;j++){
-            if(arr[j]>arr[j+1]){
-                swap(arr[j],arr[j+1]);
-            }
+    for(int j=0;j<i;j++){
+        if(arr[j]>arr[j+1]){
+            swap(arr[j],arr[j+1]);
         }
     }
+}
